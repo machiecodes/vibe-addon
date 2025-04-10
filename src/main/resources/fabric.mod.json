@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "vibe-addon",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "Vibe Addon",
+  "description": "Vibe coded meteor addon",
   "authors": [
-    "seasnail"
+    "Gemini 2.5 Pro"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/machiecodes/vibe-addon"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/vibe-addon/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "me.vibe.Vibe"
     ]
   },
   "mixins": [
