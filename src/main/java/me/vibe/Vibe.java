@@ -15,8 +15,8 @@ import org.slf4j.Logger;
 
 public class Vibe extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
-    public static final Category CATEGORY = new Category("Example");
-    public static final HudGroup HUD_GROUP = new HudGroup("Example");
+    public static final Category CATEGORY = new Category("Vibe Addon");
+    public static final HudGroup HUD_GROUP = new HudGroup("Vibe Addon");
 
     @Override
     public void onInitialize() {
@@ -39,11 +39,11 @@ public class Vibe extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "me.vibe";
     }
 
     @Override
     public GithubRepo getRepo() {
-        return new GithubRepo("MeteorDevelopment", "meteor-addon-template");
+        return new GithubRepo("machiecodes", "vibe-addon", "main", null);
     }
 }
